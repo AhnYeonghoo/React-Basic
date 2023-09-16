@@ -2,24 +2,19 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const name = '영후';
+	return (
+		<>
+			<h1 className='orange'>Hello!</h1>
+			<h2>hello</h2>
+			<p>{name}</p>
+			<ul>
+				<li style={{ color: 'red' }}>우유</li>
+				<li>딸기</li>
+				<li>바나나</li>
+			</ul>
+		</>
+	);
 }
 
 export default App;
