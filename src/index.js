@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import AppProfile from './AppProfile';
+
 import reportWebVitals from './reportWebVitals';
-import Avatar from './components/Avatar';
-import AppCounter from './AppCounter';
-import AppProducts from './AppProducts';
+
+import AppXY from './AppXY';
+import AppMentor from './AppMentor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<AppProducts />
+		<AppMentor />
 	</React.StrictMode>
 );
 
